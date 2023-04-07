@@ -1,0 +1,191 @@
+@keyframes animation-img{
+    form{
+        transform: scale(0,0) rotate(0deg);
+    }
+    to{
+        transform: scale(1.2,1.2) rotate(-2deg);
+    }
+}
+@keyframes animation1{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 100px;
+    }
+}
+@keyframes animation1{
+    0%{
+    transform: translateY(0);
+    }
+    100%{
+    transform: translateY(50);
+    }
+    
+}
+@keyframes slidein {
+    0% { margin-left:-2000px; }
+    20% { margin-left:-2000px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+@keyframes slidein1 {
+    0% { margin-left:-3000px; }
+    20% { margin-left:-3000px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+
+@keyframes showup {
+    0% {opacity:1;}
+    20% {opacity:0;}
+    80% {opacity:0;}
+    100% {opacity:1;}
+}
+body{
+    overflow-x: hidden;
+}
+#carouselExampleControls img{
+    height: 500px;
+}
+.carousel-indicators {
+    flex-direction: column;
+    left: 80%;
+    bottom: 40%;
+
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 8px;
+}
+.img-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.636);
+}
+.blog-img{
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.card:hover img{
+    animation-name: animation-img;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.card:hover .social {
+    background-color: rgb(0, 72, 255) !important;
+}
+.cards .btn:hover{
+    color: #0c65ed;
+}
+
+.cap{
+    
+    position: absolute;
+    top:40%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.cap h2{
+    animation: slidein 5s ;
+}
+.cap p{
+    animation: slidein1 5s ;
+}
+.hr-lines{
+    position: relative;
+    /*  new lines  */
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+.hr-lines:after{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background: rgb(0, 72, 255) ;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+.hr-lines:before{
+    content:" ";
+    height: 2px;
+    width: 130px;
+    background:  rgb(0, 72, 255);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.carousel-item .btn:hover{
+    background-color:rgb(0, 72, 255) ;
+}
+
+.footer-top{
+    padding: 100px 0px 70px;
+}
+footer img{
+    height: 60px;
+}
+footer .btn:hover{
+    background-color:rgb(0, 72, 255) ;
+    color: #ffffff;
+}
+.parent {
+    overflow: hidden;
+}
+.para{
+    top:85%
+}
+.para:hover{
+    top:55%
+}.para:hover h6{
+    border:none !important;
+}
+.para:hover .social{
+    background-color:rgb(0, 72, 255) !important;
+}
+.para .icon:hover{
+    color:rgb(37, 37, 37) !important;
+}
+.team h2:before {
+    width: 70px;
+    height: 2px;
+    background-color: #0c65ed;
+    left: 40px;
+    top: 21px;
+    position: absolute;
+    content: "";
+}
+.team h2::after {
+    width: 70px;
+    height: 2px;
+    background-color: #0c65ed;
+    right: 40px;
+    top: 21px;
+    position: absolute;
+    content: "";
+}
+footer .hr-line:after {
+    width: 70px;
+    height: 2px;
+    background-color: #0c65ed;
+    position: absolute;
+    content: "";
+}
+.newPost:hover{
+    background-color: #0c65ed;
+}
+
+
+
