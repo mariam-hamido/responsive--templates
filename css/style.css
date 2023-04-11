@@ -153,24 +153,7 @@ footer .btn:hover{
 .para .icon:hover{
     color:rgb(37, 37, 37) !important;
 }
-.team h2:before {
-    width: 70px;
-    height: 2px;
-    background-color: #0c65ed;
-    left: 40px;
-    top: 21px;
-    position: absolute;
-    content: "";
-}
-.team h2::after {
-    width: 70px;
-    height: 2px;
-    background-color: #0c65ed;
-    right: 40px;
-    top: 21px;
-    position: absolute;
-    content: "";
-}
+
 footer .hr-line:after {
     width: 70px;
     height: 2px;
